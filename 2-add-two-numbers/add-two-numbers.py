@@ -9,7 +9,7 @@ class Solution:
         tail=dummy
         carry=0
 
-        while carry!=0 or l1 is not None or l2 is not None:
+        while l1 or l2 or carry:
             val1=l1.val if l1 is not None else 0
             val2=l2.val if l2 is not None else 0
     
